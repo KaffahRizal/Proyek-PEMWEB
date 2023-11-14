@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM kemahasiswaan</title>
+    <link rel="stylesheet" href="css.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <h1>FORM MAHASISWA</h1>
+        <fieldset>
+            <legend>Daftarkan Alumni</legend>
+    
+            <TABLE>
+                <tr>
+                    <td>Cari Nama Alumni</td>
+                    <td>
+                        <input type="text" id="bx-search" name="Nama Alumni" placeholder="Search">
+                        <i class='bx bx-search' id="search"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name :</td>
+                    <td>
+                        <select name="prodi" id="prodi">
+                            <option value="Teknik Informatika">Teknik Informatika</option>
+                            <option value="Sistem Informasi">Sistem Informasi</option>
+                            <option value="Bisnis Digital">Bisnis Digital</option>
+                        </select>
+                    </td>
+                </tr>
+                <TR>
+                    <TD>Tahun Masuk :</TD>
+                    <td><input type="number" name="tahunmasuk"></td>
+                </TR>
+                <tr>
+                    <td>Tahun Lulus :</td>
+                    <td>
+                        <input type="number" name="tahunlulus">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat Linkedin :</td>
+                    <td>
+                        <input type="text" name="Linkedin" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat pekerjaan :</td>
+                    <td>
+                        <textarea name="Alamatpekerjaan" cols="30" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat Kantor :</td>
+                    <td>
+                        <textarea name="AlamatKantor" cols="30" rows="3"></textarea>
+                    </td>
+                </tr>
+                  
+                <tr>
+                    <td>Pengurus Alumni</td>
+                <td>
+                <input type="radio" name="crust" value="ya">ya          
+                <input type="radio" name="crust" value="tidak">tidak
+                </td>
+                </tr>
+    
+            </table>
+            <h6>
+                <button type="submit" id="submit">Simpan</button>
+                <button type="reset" id="reset">Reset</button>
+            </h6>
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>
