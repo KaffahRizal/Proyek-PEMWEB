@@ -1,0 +1,36 @@
+body{
+    margin: 100px 0;
+}
+.breadcrumbs ul svg{
+    width: 20px;
+    vertical-align:middle;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+.breadcrumbs{
+    padding: 10px 48px;
+    box-shadow: 0 4px 30px -10px rgba rgb(0, 0, 244);
+    width: fit-content;
+}
+.breadcrumbs ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.breadcrumbs ul li a{
+    text-decoration: none;
+    color: black;
+}
+.breadcrumbs ul li a:hover{
+    color: #0984e3;
+}
+.breadcrumbs ul li :last-child a{
+    font-weight: bold;
+}
+.breadcrumbs ul li a:not(:first-child):before{
+    content: ",";
+}
+.breadcrumbs ul li.arrow svg{
+    width: 18px;
+}
